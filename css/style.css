@@ -58,7 +58,7 @@ li {
     background-color: white;
 }
 
-@media(max-width:768px){
+@media(max-width:720px){
     .hamburger-menu {
         display: block;
     }
