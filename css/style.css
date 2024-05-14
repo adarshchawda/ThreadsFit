@@ -1,13 +1,353 @@
-@media (max-width:500px){
-    .nav-bar {
-        background-color: black;
-        margin: -8px;
+.nav-bar {
+    background-color: black;
+    margin: -8px;
+}
+.logo {
+    width: 180px;
+    padding-left: 25px;
+}
+li {
+    list-style: none;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.nav-bar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.nav-link {
+    transition: 0.7s ease;
+}
+.nav-link:hover {
+    color: red;
+}
+.header {
+    background-color: black;
+    margin: -8px;
+    height: 100vh;
+}
+.header .tshirt{
+    margin-top: 180px;
+    margin-left: 10%;
+}
+.header .headline {
+    position: absolute;
+    top: 32%;
+    margin-left: 50%;
+    /* margin-right: 300px; */
+    color: red;
+    font-family: "Antonio", sans-serif;
+    font-size: 3.438rem;
+    text-align: center;
+}
+.header .sub-headline {
+    position: absolute;
+    color: red;
+    top: 52%;
+    margin-left: 38%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5rem;
+}
+.contact {
+    position: absolute;
+    background-color: white;
+    border: none;
+    color: red;
+    text-align: center;
+    /* display: inline-block; */
+    padding: 10px 24px; 
+    border-radius: 16px;
+    font-size: 20px;
+    transition-duration: 0.6s;
+    margin-left: 200px;
+    margin-top: 42%;
+}
+.contact:hover {
+    background-color: red;
+    color: white;
+}
+.about-us-heading {
+    position: absolute;
+    margin-left: 16%;
+    font-family: "Roboto Mono", monospace;
+    font-size: 60px;
+    margin-top: 100px;
+}
+.about-us-info {
+    position: absolute;
+    margin-left: 16%;
+    margin-right: 700px;
+    font-size: 30px;
+    font-family: "Antonio", sans-serif;
+    font-stretch: extra-expanded;
+    margin-top: 210px;
+}
+.shop-now-btn {
+    position: absolute;
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    /* display: inline-block; */
+    padding: 9px 23px; 
+    border-radius: 16px;
+    font-size: 21px;
+    transition-duration: 0.6s;
+    left: 129px;
+    margin-right: 100px;
+    margin-top: 450px;
+}
+.shop-now-btn:hover{
+    background-color: black;
+    color: white;
+}
+.tee-display {
+    margin-left: 1200px;
+    /* margin-right: 1px; */
+    margin-top: 20px;
+}
+.web-details {
+    /* padding-top: 35px; */
+    background-color: black;
+    color: white;
+    margin: -8px;
+}
+.web-details h4 {
+    margin-left: 120px;
+    padding-top: 40px;
+    font-size: 25px;
+
+}
+.web-details a {
+    margin-left: 120px;
+    font-size: 24px;
+    text-decoration: none;
+    color: red;
+    
+}
+.web-details h3 {
+    padding-top: 1px;
+    margin-left: 120px;
+    font-size: 28px;
+}
+.web-details .follow-us {
+    margin-left: 1460px;
+}
+.insta-link {
+    position: absolute;
+    width: 17%;
+    margin-left: 1400px;
+    margin-right: 120px;
+    /* margin-top: px; */
+}
+.foot-logo {
+    margin-left: 680px;
+    width: 300px;
+}
+hr{
+    width: 80%;
+}
+.made-with {
+    font-size: 30px;
+    color: red;
+    margin-left: 865px;
+}
+.credit {
+    font-size: 30px;
+    color: red;
+    margin-left: 845px;
+}
+@media (max-width: 1730px){
+    .headline {
+        font-size: 2rem;
     }
+}
+@media(max-width: 1700px){
+    .tshirt {
+        width: 350px;
+    }
+    .headline {
+        font-size: 1.75rem;
+
+    }
+    .sub-headline {
+        font-size: 1.5rem;
+    }
+    .nav-menu {
+        gap: 50px;
+    }
+    .about-us-heading {
+        margin-left: 10%;
+
+    }
+    .about-us-info {
+        margin-left: 10%;
+    }
+    .tee-display {
+        width: 25%;
+        margin-left: 55%;
+    }
+    .shop-now-btn {
+        left: 10.5%;
+        margin-top: 335px;
+    }
+    .web-details h4 {
+        margin-left: 10.5%;
+    }
+    .web-details a {
+        margin-left: 10.5%;
+
+    }
+    .web-details h3 {
+        margin-left: 10.5%;
+    }
+    .web-details .follow-us {
+        margin-left: 80%;
+    }
+    .insta-link {
+        position: absolute;
+        right: 0.5%;
+    }
+    .foot-logo {
+        margin-left: 30%;
+    }
+    .made-with {
+        margin-left: 45%
+    }
+    .credit {
+        margin-left: 43%;
+    }
+}
+@media (max-width: 1500px) {
+    .tee-display {
+        width: 20%;
+        margin-left: 52%;
+    }
+    .about-us-heading {
+        margin-top: 40px;
+        font-size: 2rem;
+    }
+    .about-us-info {
+        font-size: 1.5rem;
+        margin-top: 150px;
+    }
+    .shop-now-btn {
+        margin-top: 250px;
+    }
+}
+@media (max-width: 1320px){
+    .contact{
+        margin-left: 100px;
+        margin-top: 50%;
+    }
+}
+@media (max-width: 1150px){
+    .contact {
+        margin-top: 60%;
+    }
+    .about-us-heading {
+        font-size: 2rem;
+    }
+    .about-us-info {
+        margin-top: 100px;
+        font-size: 1.5remrem;
+        margin-right: 500px;
+    }
+    .shop-now-btn {
+        margin-top: 220px;
+    }
+    .credit {
+        font-size: 20px;
+    }
+    .made-with {
+        font-size: 20px;
+    }
+    .foot-logo {
+        width: 200px;
+    }
+    .web-details .follow-us {
+        margin-left: 70%;
+    }
+}
+@media (max-width: 950px){
+    .header .headline {
+        font-size: 2rem;
+    }
+    .header .sub-headline {
+        font-size: 1.5rem;
+        margin-right: 6%;
+    }
+    .header .tshirt {
+        margin-left: 5%;
+        width: 250px;
+    }
+    .about-us-heading {
+        font-size: 1.25rem;
+    }
+    .about-us-info {
+        font-size: 1.1rem;
+    }
+    .shop-now-btn {
+        padding: 6px 20px;
+        font-size: 18px;
+    }
+    .web-details h4 {
+        font-size: 20px;
+    }
+    .web-details a {
+        font-size: 19px;
+    }
+    .web-details h3 {
+        font-size: 24px;
+    }
+    .foot-logo {
+        width: 175px;
+    }
+}
+@media (max-width: 875px){
     .logo {
-        width: 130px;
-        padding-left: 8px;
+        width: 100px;
     }
-    .nav-bar .bar {
+    .about-us-info {
+        margin-top: 70px;
+        font-size: 0.9rem;
+    }
+    .shop-now-btn {
+        margin-top: 180px;
+    }
+}
+@media (max-width: 800px){
+    .logo {
+        width: 75px;
+    }
+    .nav-bar {
+        padding: 0 16px;
+    }
+    .nav-menu {
+        gap: 40px;
+    }
+    .insta-link {
+        width: 20%;
+    }
+    .contact {
+        margin-top: 80%;
+    }
+}
+@media (max-width: 720px){
+    av-bar .bar {
         background-color: white;
         width: 30px;
         height: 3px;
@@ -51,6 +391,7 @@
         transition: all 0.3s ease-in-out;
         background-color: white;
     }
+    
     .hamburger-menu {
         display: block;
     }
@@ -68,7 +409,7 @@
     
     .nav-menu {
         position: fixed;
-        left: -6000px;
+        left: -120%;
         top: 70px;
         gap: 0;
         flex-direction: column;
@@ -83,135 +424,107 @@
     .nav-menu.active {
         left: -32px;
     }
-    .header {
-        background-color: black;
-        margin: -8px;
-        height: 100vh;
-    
-    }
-    .header .tshirt{
-        margin-top: 70px;
-        margin-left: 5px;
-        margin-right: 5px;
+    .header .tshirt {
+        margin-left: 11%;
+        width: 80%;
+        margin-top: 10%;
     }
     .header .headline {
+        top: 60%;
         position: absolute;
-        top: 42%;
-        left: 15px;
-        color: red;
-        font-family: "Antonio", sans-serif;
-        font-size: 60px;
-        text-align: center;
+        margin-left: 25%;
+        font-size: 40px;
     }
     .header .sub-headline {
-        position: absolute;
-        color: red;
-        top: 52%;
-        left: 45px;
-        right: 45px;
-        text-align: center;
-        font-family: "Dancing Script", cursive;
+        margin-top: 30%;
+        margin-left: 12%;
+        margin-right: 12%;
         font-size: 38px;
     }
-    header .contact {
-        background-color: white;
-        border: none;
-        color: red;
-        text-align: center;
-        display: inline-block;
-        padding: 10px 24px; 
-        border-radius: 16px;
-        font-size: 20px;
-        transition-duration: 0.6s;
-        margin-left: 175px;
-        margin-top: 20%;
-    }
-    .contact:hover {
-        background-color: red;
-        color: white;
+    .header .contact {
+        position: absolute;
+        margin-left: -320px;
+        margin-top: 800px;
     }
     .about-us-heading {
-        margin-left: 35px;
-        font-family: "Roboto Mono", monospace;
-        font-size: 30px;
-        margin-top: 40px;
-    }
-    .about-us-info {
-        margin-left: 35px;
-        margin-right: 35px;
-        font-size: 23px;
-        font-family: "Antonio", sans-serif;
-        font-stretch: extra-expanded;
-    }
-    .shop-now-btn {
-        background-color: red;
-        border: none;
-        color: white;
-        text-align: center;
-        display: inline-block;
-        padding: 9px 23px; 
-        border-radius: 16px;
-        font-size: 21px;
-        transition-duration: 0.6s;
-        margin-left: 35px;
-        margin-top: 30px;
-    }
-    .shop-now-btn:hover{
-        background-color: black;
-        color: white;
-    }
-    .tee-display {
-        margin-left: 1px;
-        margin-right: 1px;
-        margin-top: 80px;
-    }
-    .web-details {
-        /* padding-top: 35px; */
-        background-color: black;
-        color: white;
-        margin: -8px;
-    }
-    .web-details h4 {
-        margin-left: 35px;
-        padding-top: 40px;
-        font-size: 25px;
-    
-    }
-    .web-details a {
-        margin-left: 35px;
-        font-size: 24px;
-        text-decoration: none;
-        color: red;
+        font-size: 28px;
         
     }
-    .web-details h3 {
-        padding-top: 1px;
-        margin-left: 35px;
-        font-size: 28px;
+    .about-us-info {
+        margin-right: 10%;
+        font-size: 21px;
     }
-    .web-details .follow-us {
-        margin-left: 75%;
-    }
-    .insta-link {
-        width: 6%;
-        margin-left: 375px;
+    .tee-display {
+        margin-left: 26%;
+        margin-top: 300px;
+        width: 50%;
     }
     .foot-logo {
-        margin-left: 70px;
-        width: 300px;
-    }
-    hr{
-        width: 80%;
-    }
-    .made-with {
-        font-size: 25px;
-        color: red;
-        margin-left: 175px;
+        margin-left: 27%;
     }
     .credit {
-        font-size: 22px;
-        color: red;
-        margin-left: 175px;
+        margin-left: 42%;
     }
-    
+    .made-with {
+        margin-left: 44.5%;
+    }
+}
+@media (max-width: 600px) {
+    .header .headline {
+        font-size: 40px;
+        margin-left: 20%;
+    }
+    .header .sub-headline {
+        font-size: 30px;
+        margin-left: 9%;
+    }
+}
+@media (max-width: 420px) {
+    .header .headline {
+        margin-left: 10%;
+    }
+    .header .sub-headline {
+        margin-top: 60%;
+    }
+    .header .contact {
+        margin-left: -250px;
+        margin-top: 850px;
+    }
+    .insta-link {
+        width: 30%;
+        margin-right: 25px;
+    }
+    .foot-logo {
+        margin-left: 90px;
+    }
+    .made-with {
+        margin-left: 170px;
+    }
+    .credit {
+        margin-left: 150px;
+    }
+}
+@media (max-width: 360px){
+    .header .headline {
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 60px;
+    }
+    .header .sub-headline {
+        font-size: 25px;
+    }
+    .header .contact {
+        padding: 8px 20px;
+        margin-left: -210px;
+    }
+    .foot-logo {
+        margin-left: 55px;
+    }
+    .made-with {
+        margin-left: 130px;
+    }
+    .credit {
+        margin-left: 110px;
+    }
+
 }
